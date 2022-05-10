@@ -66,8 +66,13 @@
 | 🟩 Promise             | 🟩 nextTick                    | 🟩 try..catch       | ⬜ Rx.js                 |
 | 🟩 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟩 Sequential async      |
 | 🟩 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟩 Parallel async        |
+<<<<<<< HEAD
 | 🟩 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟩 Promise.all           |
 | 🟩 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
+=======
+| 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟩 Promise.all           |
+| 🟦 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
+>>>>>>> 3f1c1c3249813304f229f7425e07e97ba13943b8
 | 🟩 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟩 Promise.race          |
 | 🟩 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
 | 🟩 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
