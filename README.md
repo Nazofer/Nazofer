@@ -1,6 +1,6 @@
-<code>🎓 Student: KPI / IM-12</code>
+<code>🎓 Student: KPI FICT / IM-12</code>
 <code>⚪ Community: Metarhia / KPI FICT</code>
-<code>👷 Speciality: Software engineer /IDK yet</code><br>
+<code>👷 Speciality: Software engineer</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
 <code>📢 [Public talks: 0](TALKS.md)</code>
