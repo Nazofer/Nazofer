@@ -66,20 +66,21 @@
 | 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
 | 🟦 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
 | 🟦 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
-| 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
-| 🟦 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
-| 🟦 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
-| 🟦 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
-| 🟦 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
-| ⬜ Cancelable callback | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool            |
-| ⬜ Cancelable Promise  | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool           |
-| 🟦 Asynchronous Queue  | 🟦 Callback hell               | 🟦 Race conditions  | 🟦 callbackify           |
-| ⬜ Future              | 🟦 Promise hell                | 🟦 Dead locks       | 🟦 promisify             |
-| ⬜ Deferred            |                                | 🟦 Live locks       | ⬜ IPC                   |
-| 🟦 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
-| ⬜ Async Collector     |                                |                     | ⬜ Revealing Constructor |
-| ⬜ Coroutine           |                                |                     |                          |
-| ⬜ Goroutine           |                                |                     |                          |
+| ⬜ top-level await     | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
+| 🟦 Generator           | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
+| 🟦 Async Generator     | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
+| 🟦 Async Iterator      | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
+| 🟦 Thenable            | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
+| 🟦 EventEmitter        | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool            |
+| ⬜ Cancelable callback | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool           |
+| ⬜ Cancelable Promise  | 🟦 Callback hell               | 🟦 Race conditions  | 🟦 callbackify           |
+| 🟦 Asynchronous Queue  | 🟦 Promise hell                | 🟦 Dead locks       | 🟦 promisify             |
+| ⬜ Future              |                                | 🟦 Live locks       | ⬜ IPC                   |
+| ⬜ Deferred            |                                | ⬜ Actor Model      | ⬜ Channel API           |
+| 🟦 Observer            |                                |                     | ⬜ Revealing Constructor  | 
+| ⬜ Async Collector     |                                |                     |                            |
+| ⬜ Coroutine           |                                |                     |                            |
+| ⬜ Goroutine           |                                |                     |                            |
 
 ## Node.js and backend
 
